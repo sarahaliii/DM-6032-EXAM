@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Segoe UI , Arial;
+}
+body{
+  color:#0c2941;
+  background:#f6e5b0;
+  padding-top:60px;
+  text-align:center;
+  }
+nav{
+  background:#0c2941;
+    position:fixed;
+  top:0;
+  width:100%
+   }
+nav ul{
+  justify-content:center;
+  list-style:none;
+  display:flex;
+    gap:30px;
+  }
+nav a{
+  color:#f6e5b0;
+    text-decoration:none;
+}
+.table{
+  margin:19px auto;
+  border:4px solid;
+  border-collapse:collapse;
+  width:50%
+ }
+.table th, td{
+  border:1px solid;
+}
+#logo{
+  width:30%
+}
+#services{
+  margin-top:60px;
+}
+#appointment{
+  margin-top:60px;
+}
+ 
